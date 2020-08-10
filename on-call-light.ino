@@ -56,7 +56,7 @@ void loop() {
             }
             else if (header.indexOf("GET /off") >= 0) {
               Serial.println("off pressed");
-              // turn on light here
+              // turn off light here
               isOn = false;
             }
 
